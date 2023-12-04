@@ -1,0 +1,6 @@
+.env
+dash/data/
+dash/main_copy.py
+data/6.Red Wine Quality Prediction_ypa.ipynb
+data/winequality_mod.csv
+data/winequality-red.csv
