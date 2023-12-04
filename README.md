@@ -19,8 +19,8 @@
 Consulte el documento: [comprension_negocio.md](https://github.com/VillafuerteM/EC_Project/edit/main/comprension_negocio.md)
 
 # Objetivo del proyecto  🎯
-Desarrollar una aplicación web usando Shiny que integre el uso de un modelo predictivo para calificar un vino de acuerdo a sus caracteristicas fisicoquímicas (como valores de densidad, alcohol y pH). 
-En este caso, la aplicación de Shiny le pedirá al usuario, introducir ciertas características de algún vino que desea calificar.
+Desarrollar una aplicación web usando Dash que integre el uso de un modelo predictivo para calificar un vino de acuerdo a sus caracteristicas fisicoquímicas (como valores de densidad, alcohol y pH). 
+En este caso, la aplicación de Dash le pedirá al usuario, introducir ciertas características de algún vino que desea calificar, para devolver una predicción acerca de si es o no un buen vino, con base en su calidad.
 
 # Base de datos  ✍
 La base de datos que se analizará en este proyecto será la de [Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality) obtenida de [Wine Quality Datasets](http://www3.dsi.uminho.pt/pcortez/wine/).
@@ -40,8 +40,7 @@ Para ejecutar este producto de datos se necesita lo siguiente:
 - Clonar el repositorio en el equipo.
 
 **Para levantar la imagen de docker y la base de datos:**  📸
-1. Descargar el archivo `Wines.csv` que está disponible en el siguiente [**Drive**](https://drive.google.com/drive/folders/1KPu_sOSKWICQB6PY9IzwpVTDCTpSzUWx), y colocarlo en la carpeta `data` del repositorio.
-2. Construir la imagen de docker:
+1. Construir la imagen de docker:
    En la raíz del repositorio, ejecutar estos 2 comandos en la terminal (se necesitará ingresar la contraseña del usuario de la computadora donde se está trabajando):
    1. > `docker-compose build`
    2. > `docker-compose up` 
@@ -53,5 +52,5 @@ Para ejecutar este producto de datos se necesita lo siguiente:
    1. Estará disponible la siguiente información:
       1. `Analisis exploratorio`: Gráfica de correlacion entre dos variables a elegir.
       2. `Wine Quality Prediction`:  A partir de los datos ingresados por el usuario y después dar clic en `Predict`, mostrará la predicción del modelo.
-4. Para salir de este producto de datos, hay que cerrar las pestañas del explorador y ejecutar `Ctrl+C` en la terminal donde se está corriendo la imagen de Docker.
+3. Para salir de este producto de datos, hay que cerrar las pestañas del explorador y ejecutar `Ctrl+C` en la terminal donde se está corriendo la imagen de Docker.
 
