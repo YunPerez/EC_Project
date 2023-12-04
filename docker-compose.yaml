@@ -14,6 +14,13 @@ services:
       - ../data/data2:/var/lib/postgresql/data
     ports:
       - 5432:5432
+  dash:
+    build: ./dash
+    ports:
+      - 8050:8050
+    volumes:
+      - ./data/winequality.csv:/app/data/winequality.csv
+      - ./data/model_dtc.joblib:/app/data/model_dtc.joblib
   web:
     build: ./api
     env_file:
@@ -22,10 +29,3 @@ services:
       - 8080:8080
     depends_on:
       - "db"
-  dash:
-    build: ./dash
-    ports:
-      - 8050:8050
-    volumes:
-      - ./data/winequality.csv:/app/data/winequality.csv
-      - ./data/model_dtc.joblib:/app/data/model_dtc.joblib
