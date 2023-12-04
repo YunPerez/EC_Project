@@ -10,7 +10,7 @@
 
 | Nombre                        |  CU    | Correo Electrónico             | Usuario Github |
 |-------------------------------|--------|--------------------------------|----------------|
-| Blanca Estela García Majarrez | 118886 | bgarci11@itam.mx               | BGARCIAMA      |
+| Blanca Estela García Manjarrez | 118886 | bgarci11@itam.mx               | BGARCIAMA      |
 | Yuneri Pérez Arellano         | 199813 | yperezar@itam.mx               | YunPerez       |
 | Mariano Villafuerte Gonzalez  | 156057 | mariano.villafuerte@itam.mx    | VillafuerteM   |
 
