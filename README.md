@@ -47,7 +47,7 @@ Para ejecutar este producto de datos se necesita lo siguiente:
 
 **Para acceder a los servicios del producto de datos:**  📡
 1. Abrir el explorador de internet e ir a la siguiente dirección:
-   1. > `[localhost:5000/main](http://127.0.0.1:8050/)`
+   1. > `http://localhost:8050/`
 2. Se accede a la página principal que contiene una gráfica de correlación entre dos variables a elegir por el usuario sobre la base de datos de vinos:
    1. Estará disponible la siguiente información:
       1. `Analisis exploratorio`: Gráfica de correlacion entre dos variables a elegir.
