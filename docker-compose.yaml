@@ -25,7 +25,7 @@ services:
   dash:
     build: ./dash
     ports:
-      - 5001:4999
+      - 8050:8050
     volumes:
       - ./data/winequality.csv:/app/data/winequality.csv
       - ./data/model_dtc.joblib:/app/data/model_dtc.joblib
