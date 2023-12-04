@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=postgres  
+    volumes:
+      - ./data/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./data/winequality.csv:/data/winequality.csv
+      - ../data/data2:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+  web:
+    build: ./api
+    env_file:
+      - ".env"
+    ports:
+      - 8080:8080
+    depends_on:
+      - "db"
+  dash:
+    build: ./dash
+    ports:
+      - 5001:4999
+    volumes:
+      - ./data/winequality.csv:/app/data/winequality.csv
+      - ./data/model_dtc.joblib:/app/data/model_dtc.joblib
