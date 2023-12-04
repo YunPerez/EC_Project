@@ -11,10 +11,14 @@ El reto del proyecto consta en poder predecir la calificación de un vino de acu
 
 ### Determinación de criterio de éxito del proyecto
 
-El principal reto del proyecto es obtener ......
+El principal reto del proyecto es visualizar un dashboard con la información del problemma y predecir la calidad del vino.
 
 ### Plan del proyecto
 
 Nosotros decidimos abordar este proyecto para apoyar con un modelo que ayude a predecir las preferencias del cliente acerca del sabor del vino, basándonos en pruebas analiticas disponibles que consideral caracteristicas fisicoquímicos de losvinos. Este modelo es útil para apoyar las evaluaciones de cata de vinos del enólogo y mejorar la producción de vino. Además, técnicas similares pueden ayudar en el marketing objetivo al modelar los gustos de los consumidores en nichos de mercado.
 
-Posterior a la comprensión de negocio y de acuerdo a la metodología XXXXX, para lograr el objetivo debemos en primer lugar hacer un análalsis exploratorio de los datos para lograr una comprensión integral de estos. En segundo proponer transformaciones y evaluar el desempeño de distintos modelos de ML. Una vez teniendo las transformaciones y el modelo final procedemos a la etapa de evaluación en la que reentrenanermos el modelo con datos de entrenamiento y prueba. Finalmente, para la parte de despliege se desarrollara un web service en flask para predecir resultados a partir de nuevos datos y un reporte ejecutivo.
+Posterior a la comprensión de negocio y de acuerdo con la metodología, para lograr el objetivo debemos:
+- En primer lugar hacer un análalsis exploratorio de los datos para lograr una comprensión integral de estos.
+- En segundo proponer transformaciones y evaluar el desempeño de distintos modelos de ML.
+- Una vez teniendo las transformaciones y el modelo final.
+- Finalmente, para la parte de despliege se desarrollara un web service en flask para predecir resultados a partir de nuevos proporcionados por el usuario, asi como la correlacioón de las diferentes variables.
